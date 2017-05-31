@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Providing and External Resources</string>
+    <string name="title">CodeKul.com</string>
+
+
+    <string-array name="courses">
+        <item>Android</item>
+        <item>Java</item>
+        <item>Spring</item>
+        <item>Apple</item>
+        <item>Angular</item>
+        </string-array>
+
+
+</resources>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Handle Runtime change v2</string>
+    <string name="btnOne">One</string>
+    <string name="btnTwo">Two</string>
+    <string name="btnThree">Three</string>
+
 </resources>

@@ -30,12 +30,6 @@ public class Panel1Fragment extends Fragment {
                  rootView.findViewById(R.id.btnOne).setOnClickListener(new View.OnClickListener() {
                   @Override
                  public void onClick(View v) {
-                      Bundle bundle = new Bundle();
-
-                      bundle.putInt(First1Fragment.KEY_FRAG_NUM, R.drawable.ic_man);
-                          First1Fragment fragment = new First1Fragment();
-                     // activity.loadFragment(new First1Fragment());
-                      activity.loadFragment(fragment);
                       activity.loadFragment(First1Fragment.getInstance(R.drawable.ic_man));
                      }
               });
@@ -43,7 +37,7 @@ public class Panel1Fragment extends Fragment {
              rootView.findViewById(R.id.btnTwo).setOnClickListener(new View.OnClickListener() {
                  @Override
                  public void onClick(View v) {
-                       activity.loadFragment(new SecondFragment());
+                     //activity.loadFragment(new SecondFragment());
                      activity.loadFragment(First1Fragment.getInstance(R.drawable.ic_team));
                               }
            });
@@ -51,8 +45,8 @@ public class Panel1Fragment extends Fragment {
             rootView.findViewById(R.id.btnThree).setOnClickListener(new View.OnClickListener() {
                @Override
                    public void onClick(View v) {
-                          activity.loadFragment(new ThirdFragment());
-                              activity.loadFragment(First1Fragment.getInstance(R.drawable.ic_woman));
+                   //  activity.loadFragment(new ThirdFragment());
+                     activity.loadFragment(First1Fragment.getInstance(R.drawable.ic_woman));
                       }
               });
 
